@@ -19,10 +19,30 @@
             HorizontalOptions="Center"
             Margin="0, 5, 0, 15"/>
 
-        <Picker
+        <!-- Picker using ViewModel data bindings -->
+        <!--<Picker
             ItemsSource="{Binding PickerItems}"
             Margin="5, 0, 5, 15">
+        </Picker> -->
+
+        <!-- Picker using XAML defined data. -->
+        <Picker
+            Margin="5, 0, 5, 15">
+
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>First Option</x:String>
+                    <x:String>Another Option</x:String>
+                    <x:String>Last Option</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+
         </Picker>
+
+        <!-- Picker using code-behind defined data; need to uncomment code in code-behind. -->
+        <!--<Picker
+            x:Name="CodeBehindPicker"
+            Margin="5, 0, 5, 15" />-->
 
         <Button
             Text="Dismiss"

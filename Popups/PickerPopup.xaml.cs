@@ -10,6 +10,15 @@ public partial class PickerPopup : Popup
 		InitializeComponent();
 
 		BindingContext = viewModel;
+
+		/*
+		var optionsList = new List<string>();
+		optionsList.Add("First Option");
+		optionsList.Add("Another Option");
+		optionsList.Add("Last option");
+
+		CodeBehindPicker.ItemsSource = optionsList;
+		// */
 	}
 
     async void OnDismissButtonClicked(object sender, EventArgs e) => await CloseAsync();
