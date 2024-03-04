@@ -25,6 +25,19 @@
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
+            <Picker
+                Margin="5, 0, 5, 15">
+
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>First MainPage Option</x:String>
+                        <x:String>Another MainPage Option</x:String>
+                        <x:String>Last MainPage Option</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+
+            </Picker>
+
             <Button
                 x:Name="CounterBtn"
                 Text="Click me" 
