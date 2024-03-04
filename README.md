@@ -15,6 +15,7 @@ A Picker is added to the main page to demonstrate that the Picker view itself do
 * OS version: Sonoma 14.3.1
 * Xcode version: 15.2
 * VSCode version: 1.87.0 (Universal)
+* .NET MAUI version: 8.0
 * CommunityToolkit.Maui version: 7.0.1
 * CommunityToolkit.Mvvm version: 8.2.2
 * iOS Simulator: iPhone 15
