@@ -10,6 +10,9 @@ The `OnBindingContextChanged()` method for the Popup has been overridden to allo
 
 A Picker is added to the main page to demonstrate that the Picker view itself doesn't seem to be the cause of the problem. The main page's Picker has it's `ItemsSource` set via XAML, and when clicked on, it displays a list of options to chose from.
 
+## Bug Report Reference
+The bug report that was created for this issue can be found [here](https://github.com/CommunityToolkit/Maui/issues/1728).
+
 ## System Information
 * Test Device: Mac Mini M1
 * OS version: Sonoma 14.3.1
