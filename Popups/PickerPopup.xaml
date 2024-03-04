@@ -21,19 +21,21 @@
 
         <!-- Picker using ViewModel data bindings -->
         <!--<Picker
+            x:Name="CodeBehindPicker"
             ItemsSource="{Binding PickerItems}"
             Margin="5, 0, 5, 15">
-        </Picker> -->
+        </Picker>-->
 
         <!-- Picker using XAML defined data. -->
         <Picker
+            x:Name="CodeBehindPicker"
             Margin="5, 0, 5, 15">
 
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
-                    <x:String>First Option</x:String>
-                    <x:String>Another Option</x:String>
-                    <x:String>Last Option</x:String>
+                    <x:String>First XAML Option</x:String>
+                    <x:String>Another XAML Option</x:String>
+                    <x:String>Last XAML Option</x:String>
                 </x:Array>
             </Picker.ItemsSource>
 

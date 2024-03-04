@@ -12,8 +12,8 @@ public partial class PickerPopupViewModel : ObservableObject
     {
         _pickerItems = new List<string>();
 
-        PickerItems.Add("First Option");
-        PickerItems.Add("Another Option");
-        PickerItems.Add("Last Option");
+        PickerItems.Add("First VM Option");
+        PickerItems.Add("Another VM Option");
+        PickerItems.Add("Last VM Option");
     }
 }
